@@ -21,7 +21,13 @@
                 <p>联系我们</p>
             </div>
             <div class="about-foot">
-                <img :src="'./static/img/about/about-foot.jpg'" alt="儿童自行车服务">
+                <div class="about-foot1">
+                    <img :src="'./static/img/about/about-foot_01.jpg'" alt="儿童自行车服务">
+                </div>
+                <div class="about-foot2">
+                    <div><img :src="'./static/img/about/about-foot_02.jpg'" alt="九个小孩微信公众号"></div>
+                    <div><img :src="'./static/img/about/about-foot_03.jpg'" alt="九个小孩微博公众号"></div>
+                </div>
             </div>
         </section>
         <img class="about-bg-box" :src="'./static/img/about/about-bg.png'" alt="">
@@ -65,6 +71,7 @@
     .sec-two{
         width:100%;
         box-sizing: border-box;
+        background: #fff;
         .sec-two-title{
             width:270px;
             position: relative;
@@ -94,9 +101,23 @@
         }
         .about-foot{
             width:100%;
-            img{
-                width:100%;
+            .about-foot1{
+                img{
+                    width:100%;
+                }
             }
+            .about-foot2{
+                display: flex;
+                justify-content: center;
+                div{
+                    width:50%;
+                    img{
+                        width:100%;
+                    }
+                }
+
+            }
+
         }
     }
 

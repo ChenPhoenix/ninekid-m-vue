@@ -47,7 +47,7 @@
                 </li>
             </ul>
 
-            <button type="button" class="sec-btn">马上租车</button>
+            <button type="button" class="sec-btn"><a href="http://m.ninekids.net/">马上租车</a></button>
         </section>
     </div>
 </template>
@@ -195,6 +195,12 @@
             display: block;
             letter-spacing: 2px;
             margin:50px auto;
+            a{
+                outline: none;
+                color: #fff;
+                width: 100%;
+                display: block;
+            }
         }
 
 

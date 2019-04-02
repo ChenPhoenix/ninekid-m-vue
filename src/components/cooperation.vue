@@ -33,7 +33,7 @@
             <div class="cooper-sec">
                 <div class="sec-img">
                     <img class="sec-img1" :src="'./static/img/cooperation/cooperation5.png'" alt="">
-                    <img class="sec-img2" :src="'./static/img/cooperation/cooperation6.png'" alt="">
+                    <img class="sec-img2" src="http://www.ninekids.net/sites/all/themes/ninekids/ninekids/images/bg-coor-10.png" alt="">
                 </div>
                 <ul class="sec-list-box">
                     <li class="sec-list">
@@ -91,7 +91,6 @@
                 box-sizing: border-box;
                 font-size:22px;
                 text-indent: 2em;
-
             }
             img{
                 width:100%;
@@ -139,17 +138,18 @@
             }
             .sec-img{
                 position: relative;
+                background: #fff;
                 .sec-img1{
                     width:100%;
                     position: relative;
                     z-index: 2;
                 }
                 .sec-img2{
-                    width:260px;
+                    width:300px;
                     height: auto;
                     position:absolute;
-                    top:-36px;
-                    right:70px;
+                    top:-100px;
+                    right:40px;
                     z-index:3;
                     transform:rotate(8deg);
                 }
