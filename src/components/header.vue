@@ -147,8 +147,8 @@
             },
         },
         mounted(){
-            console.log(this.$route.query.nav);
-            console.log(this.utils.getUrlKey('nav'));
+            // console.log(this.$route.query.nav);
+            // console.log(this.utils.getUrlKey('nav'));
         },
     }
 </script>

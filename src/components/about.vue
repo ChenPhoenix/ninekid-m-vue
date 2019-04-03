@@ -109,6 +109,7 @@
             .about-foot2{
                 display: flex;
                 justify-content: center;
+                background: #FBE5DA;
                 div{
                     width:50%;
                     img{

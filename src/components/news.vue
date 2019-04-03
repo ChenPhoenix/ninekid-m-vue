@@ -96,7 +96,7 @@
         width:100%;
     }
     .new-list-box{
-        background: #fff;
+
     }
     .new-list-box .new-list{
         display: flex;

@@ -44,7 +44,7 @@
 
             //
             var that=this;
-            console.log(that.$route.query.list);
+            // console.log(that.$route.query.list);
             // that.axios.get('/test/data/code/token/info')
             that.axios.get(process.env.API_HOST+'data/code/token/info')
             // this.axios.get('/data/code/token/info')
@@ -63,7 +63,7 @@
                             id:that.$route.query.list
                         })
                     }).then(function(res,reject){
-                        console.log(res.data)
+                        // console.log(res.data)
                         that.context=res.data.body_value;
                     })
                 }).catch(function (error) {
